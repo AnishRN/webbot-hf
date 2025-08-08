@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://yakul259:$HF_TOKEN@huggingface.co/spaces/yakul259/web-bot main
+        run: git push https://yakul259@huggingface.co/spaces/yakul259/web-bot main
