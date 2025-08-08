@@ -7,7 +7,7 @@ from langchain.chains.summarize import load_summarize_chain
 from langchain_community.document_loaders import YoutubeLoader, UnstructuredURLLoader
 import os
 os.environ["HOME"] = "/app"
-## ─────────────────────────────────────────────────────────────
+### ─────────────────────────────────────────────────────────────
 # 🎨 UI Styling
 st.set_page_config(page_title="🦜 LangChain Summarizer", layout="centered")
 st.markdown("""
@@ -109,5 +109,6 @@ if st.button("Summarize Now 🚀"):
         except Exception as e:
             st.error("An unexpected error occurred.")
             st.exception(e)
+
 
 
